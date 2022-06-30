@@ -75,6 +75,7 @@ class MyApp extends StatelessWidget {
           "/home": (context) => HomePage(),
           "/add": (context) => PlaylistForm(),
           "/onboard": (context) => OnboardingScreen(),
+          "/profile": (context) => User_Profile(),
           
         },
         debugShowCheckedModeBanner: false,
